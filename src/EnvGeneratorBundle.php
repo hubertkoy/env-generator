@@ -4,7 +4,7 @@ namespace HubertKoy\EnvGenerator;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class EnvGeneratorBundle
+class EnvGeneratorBundle extends Bundle
 {
     public function getPath(): string
     {
