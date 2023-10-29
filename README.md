@@ -24,9 +24,9 @@ To enable the GenerateEnvCommand in your Symfony application, add the following 
 
 ```yaml
 services:
-HubertKoy\EnvGenerator\Command\GenerateEnvCommand:
-tags:
-- { name: 'console.command' }
+    HubertKoy\EnvGenerator\Command\GenerateEnvCommand:
+        tags:
+            - { name: 'console.command' }
 ```
 
 Ensure that all dependencies mentioned in the "Requirements" section are met.
