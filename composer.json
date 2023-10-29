@@ -18,5 +18,12 @@
       "name": "Hubert Koy",
       "email": "hubkoydev@gmail.com"
     }
-  ]
+  ],
+  "extra": {
+    "symfony": {
+      "commands": [
+        "HubertKoy\\EnvGenerator\\Command\\EnvGeneratorCommand"
+      ]
+    }
+  }
 }
