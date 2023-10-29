@@ -18,6 +18,17 @@ To install the package in your project, use Composer by running the following co
 composer require hubertkoy/env-generator
 ```
 
+## Configuration
+
+To enable the GenerateEnvCommand in your Symfony application, add the following configuration to your config/services.yaml file:
+
+```yaml
+services:
+HubertKoy\EnvGenerator\Command\GenerateEnvCommand:
+tags:
+- { name: 'console.command' }
+```
+
 Ensure that all dependencies mentioned in the "Requirements" section are met.
 
 ## Usage
