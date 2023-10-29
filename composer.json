@@ -19,6 +19,8 @@
       "email": "hubkoydev@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "symfony": {
       "commands": [
