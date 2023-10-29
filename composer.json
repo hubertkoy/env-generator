@@ -19,6 +19,7 @@
       "email": "hubkoydev@gmail.com"
     }
   ],
+  "version": "1.0.0",
   "extra": {
     "symfony": {
       "commands": [
