@@ -22,7 +22,11 @@
   "extra": {
     "symfony": {
       "commands": [
-        "HubertKoy\\EnvGenerator\\Command\\EnvGeneratorCommand"
+        {
+          "name": "generate:env",
+          "class": "HubertKoy\\EnvGenerator\\Command\\EnvGeneratorCommand",
+          "description": "Generates ENV values for encryption and app environment."
+        }
       ]
     }
   }
